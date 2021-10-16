@@ -1,4 +1,4 @@
-setting = "unconditional"
+setting = "min_rep"
 
 out_file = open(setting + ".yaml", 'w')
 
@@ -16,7 +16,7 @@ for i in range(10, 35):
 		nr_clusters = "null"
 		nr_components = i
 		lambda_value = j * 0.01
-		non_merge_indices = {}
+		non_merge_indices = {1, 2}
 
 		output_string = name + " : " +\
 										"\n  " + "label : " + label +\
