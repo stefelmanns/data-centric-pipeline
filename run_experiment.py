@@ -61,7 +61,7 @@ if __name__ == '__main__':
 	
 	parser = argparse.ArgumentParser()
 
-	parser.add_argument('-s', '--setting', 	type=str, default="test")
+	parser.add_argument('-s', '--setting', 	type=str, default="settings/test")
 	parser.add_argument('-i', '--in_path', 	type=str, default="../lun_data_set/")
 	parser.add_argument('-o', '--out_path', type=str, default="../output/")
 
