@@ -1,4 +1,4 @@
-setting = "min_rep"
+setting = "em100"
 
 out_file = open(setting + ".yaml", 'w')
 
@@ -10,13 +10,13 @@ for i in range(10, 35):
 		# name = str(j) + "_conventional"
 		label = "\"" + str(i) +  " components, lambda " + '{0:.2f}'.format(j*0.01) + "\""
 		# label = "\"0 components, lambda " + '{0:.2f}'.format(j) + "\""
-		clustering_name = "null"
+		clustering_name = "em"
 		epsilon = "null"
 		min_nr_samples = "null"
-		nr_clusters = "null"
+		nr_clusters = 100
 		nr_components = i
 		lambda_value = j * 0.01
-		non_merge_indices = {1, 2}
+		non_merge_indices = {}
 
 		output_string = name + " : " +\
 										"\n  " + "label : " + label +\

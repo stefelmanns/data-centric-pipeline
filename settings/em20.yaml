@@ -1,0 +1,2500 @@
+10_1_em20 : 
+  label : "10 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 10
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+10_2_em20 : 
+  label : "10 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 10
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+10_3_em20 : 
+  label : "10 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 10
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+10_4_em20 : 
+  label : "10 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 10
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+10_5_em20 : 
+  label : "10 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 10
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+10_6_em20 : 
+  label : "10 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 10
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+10_7_em20 : 
+  label : "10 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 10
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+10_8_em20 : 
+  label : "10 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 10
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+10_9_em20 : 
+  label : "10 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 10
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+10_10_em20 : 
+  label : "10 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 10
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+11_1_em20 : 
+  label : "11 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 11
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+11_2_em20 : 
+  label : "11 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 11
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+11_3_em20 : 
+  label : "11 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 11
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+11_4_em20 : 
+  label : "11 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 11
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+11_5_em20 : 
+  label : "11 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 11
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+11_6_em20 : 
+  label : "11 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 11
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+11_7_em20 : 
+  label : "11 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 11
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+11_8_em20 : 
+  label : "11 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 11
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+11_9_em20 : 
+  label : "11 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 11
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+11_10_em20 : 
+  label : "11 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 11
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+12_1_em20 : 
+  label : "12 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 12
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+12_2_em20 : 
+  label : "12 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 12
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+12_3_em20 : 
+  label : "12 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 12
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+12_4_em20 : 
+  label : "12 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 12
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+12_5_em20 : 
+  label : "12 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 12
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+12_6_em20 : 
+  label : "12 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 12
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+12_7_em20 : 
+  label : "12 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 12
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+12_8_em20 : 
+  label : "12 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 12
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+12_9_em20 : 
+  label : "12 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 12
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+12_10_em20 : 
+  label : "12 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 12
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+13_1_em20 : 
+  label : "13 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 13
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+13_2_em20 : 
+  label : "13 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 13
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+13_3_em20 : 
+  label : "13 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 13
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+13_4_em20 : 
+  label : "13 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 13
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+13_5_em20 : 
+  label : "13 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 13
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+13_6_em20 : 
+  label : "13 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 13
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+13_7_em20 : 
+  label : "13 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 13
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+13_8_em20 : 
+  label : "13 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 13
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+13_9_em20 : 
+  label : "13 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 13
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+13_10_em20 : 
+  label : "13 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 13
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+14_1_em20 : 
+  label : "14 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 14
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+14_2_em20 : 
+  label : "14 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 14
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+14_3_em20 : 
+  label : "14 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 14
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+14_4_em20 : 
+  label : "14 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 14
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+14_5_em20 : 
+  label : "14 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 14
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+14_6_em20 : 
+  label : "14 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 14
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+14_7_em20 : 
+  label : "14 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 14
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+14_8_em20 : 
+  label : "14 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 14
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+14_9_em20 : 
+  label : "14 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 14
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+14_10_em20 : 
+  label : "14 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 14
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+15_1_em20 : 
+  label : "15 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 15
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+15_2_em20 : 
+  label : "15 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 15
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+15_3_em20 : 
+  label : "15 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 15
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+15_4_em20 : 
+  label : "15 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 15
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+15_5_em20 : 
+  label : "15 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 15
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+15_6_em20 : 
+  label : "15 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 15
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+15_7_em20 : 
+  label : "15 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 15
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+15_8_em20 : 
+  label : "15 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 15
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+15_9_em20 : 
+  label : "15 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 15
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+15_10_em20 : 
+  label : "15 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 15
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+16_1_em20 : 
+  label : "16 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 16
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+16_2_em20 : 
+  label : "16 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 16
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+16_3_em20 : 
+  label : "16 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 16
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+16_4_em20 : 
+  label : "16 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 16
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+16_5_em20 : 
+  label : "16 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 16
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+16_6_em20 : 
+  label : "16 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 16
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+16_7_em20 : 
+  label : "16 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 16
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+16_8_em20 : 
+  label : "16 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 16
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+16_9_em20 : 
+  label : "16 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 16
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+16_10_em20 : 
+  label : "16 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 16
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+17_1_em20 : 
+  label : "17 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 17
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+17_2_em20 : 
+  label : "17 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 17
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+17_3_em20 : 
+  label : "17 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 17
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+17_4_em20 : 
+  label : "17 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 17
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+17_5_em20 : 
+  label : "17 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 17
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+17_6_em20 : 
+  label : "17 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 17
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+17_7_em20 : 
+  label : "17 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 17
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+17_8_em20 : 
+  label : "17 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 17
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+17_9_em20 : 
+  label : "17 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 17
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+17_10_em20 : 
+  label : "17 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 17
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+18_1_em20 : 
+  label : "18 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 18
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+18_2_em20 : 
+  label : "18 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 18
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+18_3_em20 : 
+  label : "18 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 18
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+18_4_em20 : 
+  label : "18 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 18
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+18_5_em20 : 
+  label : "18 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 18
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+18_6_em20 : 
+  label : "18 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 18
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+18_7_em20 : 
+  label : "18 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 18
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+18_8_em20 : 
+  label : "18 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 18
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+18_9_em20 : 
+  label : "18 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 18
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+18_10_em20 : 
+  label : "18 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 18
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+19_1_em20 : 
+  label : "19 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 19
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+19_2_em20 : 
+  label : "19 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 19
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+19_3_em20 : 
+  label : "19 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 19
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+19_4_em20 : 
+  label : "19 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 19
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+19_5_em20 : 
+  label : "19 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 19
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+19_6_em20 : 
+  label : "19 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 19
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+19_7_em20 : 
+  label : "19 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 19
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+19_8_em20 : 
+  label : "19 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 19
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+19_9_em20 : 
+  label : "19 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 19
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+19_10_em20 : 
+  label : "19 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 19
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+20_1_em20 : 
+  label : "20 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 20
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+20_2_em20 : 
+  label : "20 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 20
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+20_3_em20 : 
+  label : "20 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 20
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+20_4_em20 : 
+  label : "20 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 20
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+20_5_em20 : 
+  label : "20 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 20
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+20_6_em20 : 
+  label : "20 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 20
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+20_7_em20 : 
+  label : "20 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 20
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+20_8_em20 : 
+  label : "20 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 20
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+20_9_em20 : 
+  label : "20 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 20
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+20_10_em20 : 
+  label : "20 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 20
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+21_1_em20 : 
+  label : "21 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 21
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+21_2_em20 : 
+  label : "21 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 21
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+21_3_em20 : 
+  label : "21 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 21
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+21_4_em20 : 
+  label : "21 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 21
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+21_5_em20 : 
+  label : "21 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 21
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+21_6_em20 : 
+  label : "21 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 21
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+21_7_em20 : 
+  label : "21 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 21
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+21_8_em20 : 
+  label : "21 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 21
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+21_9_em20 : 
+  label : "21 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 21
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+21_10_em20 : 
+  label : "21 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 21
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+22_1_em20 : 
+  label : "22 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 22
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+22_2_em20 : 
+  label : "22 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 22
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+22_3_em20 : 
+  label : "22 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 22
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+22_4_em20 : 
+  label : "22 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 22
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+22_5_em20 : 
+  label : "22 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 22
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+22_6_em20 : 
+  label : "22 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 22
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+22_7_em20 : 
+  label : "22 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 22
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+22_8_em20 : 
+  label : "22 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 22
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+22_9_em20 : 
+  label : "22 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 22
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+22_10_em20 : 
+  label : "22 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 22
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+23_1_em20 : 
+  label : "23 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 23
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+23_2_em20 : 
+  label : "23 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 23
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+23_3_em20 : 
+  label : "23 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 23
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+23_4_em20 : 
+  label : "23 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 23
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+23_5_em20 : 
+  label : "23 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 23
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+23_6_em20 : 
+  label : "23 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 23
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+23_7_em20 : 
+  label : "23 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 23
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+23_8_em20 : 
+  label : "23 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 23
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+23_9_em20 : 
+  label : "23 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 23
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+23_10_em20 : 
+  label : "23 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 23
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+24_1_em20 : 
+  label : "24 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 24
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+24_2_em20 : 
+  label : "24 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 24
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+24_3_em20 : 
+  label : "24 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 24
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+24_4_em20 : 
+  label : "24 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 24
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+24_5_em20 : 
+  label : "24 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 24
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+24_6_em20 : 
+  label : "24 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 24
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+24_7_em20 : 
+  label : "24 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 24
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+24_8_em20 : 
+  label : "24 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 24
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+24_9_em20 : 
+  label : "24 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 24
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+24_10_em20 : 
+  label : "24 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 24
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+25_1_em20 : 
+  label : "25 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 25
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+25_2_em20 : 
+  label : "25 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 25
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+25_3_em20 : 
+  label : "25 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 25
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+25_4_em20 : 
+  label : "25 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 25
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+25_5_em20 : 
+  label : "25 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 25
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+25_6_em20 : 
+  label : "25 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 25
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+25_7_em20 : 
+  label : "25 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 25
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+25_8_em20 : 
+  label : "25 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 25
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+25_9_em20 : 
+  label : "25 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 25
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+25_10_em20 : 
+  label : "25 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 25
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+26_1_em20 : 
+  label : "26 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 26
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+26_2_em20 : 
+  label : "26 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 26
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+26_3_em20 : 
+  label : "26 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 26
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+26_4_em20 : 
+  label : "26 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 26
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+26_5_em20 : 
+  label : "26 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 26
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+26_6_em20 : 
+  label : "26 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 26
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+26_7_em20 : 
+  label : "26 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 26
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+26_8_em20 : 
+  label : "26 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 26
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+26_9_em20 : 
+  label : "26 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 26
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+26_10_em20 : 
+  label : "26 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 26
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+27_1_em20 : 
+  label : "27 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 27
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+27_2_em20 : 
+  label : "27 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 27
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+27_3_em20 : 
+  label : "27 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 27
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+27_4_em20 : 
+  label : "27 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 27
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+27_5_em20 : 
+  label : "27 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 27
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+27_6_em20 : 
+  label : "27 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 27
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+27_7_em20 : 
+  label : "27 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 27
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+27_8_em20 : 
+  label : "27 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 27
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+27_9_em20 : 
+  label : "27 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 27
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+27_10_em20 : 
+  label : "27 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 27
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+28_1_em20 : 
+  label : "28 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 28
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+28_2_em20 : 
+  label : "28 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 28
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+28_3_em20 : 
+  label : "28 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 28
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+28_4_em20 : 
+  label : "28 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 28
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+28_5_em20 : 
+  label : "28 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 28
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+28_6_em20 : 
+  label : "28 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 28
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+28_7_em20 : 
+  label : "28 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 28
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+28_8_em20 : 
+  label : "28 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 28
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+28_9_em20 : 
+  label : "28 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 28
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+28_10_em20 : 
+  label : "28 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 28
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+29_1_em20 : 
+  label : "29 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 29
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+29_2_em20 : 
+  label : "29 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 29
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+29_3_em20 : 
+  label : "29 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 29
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+29_4_em20 : 
+  label : "29 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 29
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+29_5_em20 : 
+  label : "29 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 29
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+29_6_em20 : 
+  label : "29 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 29
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+29_7_em20 : 
+  label : "29 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 29
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+29_8_em20 : 
+  label : "29 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 29
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+29_9_em20 : 
+  label : "29 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 29
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+29_10_em20 : 
+  label : "29 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 29
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+30_1_em20 : 
+  label : "30 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 30
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+30_2_em20 : 
+  label : "30 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 30
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+30_3_em20 : 
+  label : "30 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 30
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+30_4_em20 : 
+  label : "30 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 30
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+30_5_em20 : 
+  label : "30 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 30
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+30_6_em20 : 
+  label : "30 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 30
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+30_7_em20 : 
+  label : "30 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 30
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+30_8_em20 : 
+  label : "30 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 30
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+30_9_em20 : 
+  label : "30 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 30
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+30_10_em20 : 
+  label : "30 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 30
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+31_1_em20 : 
+  label : "31 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 31
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+31_2_em20 : 
+  label : "31 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 31
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+31_3_em20 : 
+  label : "31 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 31
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+31_4_em20 : 
+  label : "31 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 31
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+31_5_em20 : 
+  label : "31 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 31
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+31_6_em20 : 
+  label : "31 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 31
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+31_7_em20 : 
+  label : "31 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 31
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+31_8_em20 : 
+  label : "31 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 31
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+31_9_em20 : 
+  label : "31 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 31
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+31_10_em20 : 
+  label : "31 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 31
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+32_1_em20 : 
+  label : "32 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 32
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+32_2_em20 : 
+  label : "32 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 32
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+32_3_em20 : 
+  label : "32 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 32
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+32_4_em20 : 
+  label : "32 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 32
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+32_5_em20 : 
+  label : "32 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 32
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+32_6_em20 : 
+  label : "32 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 32
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+32_7_em20 : 
+  label : "32 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 32
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+32_8_em20 : 
+  label : "32 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 32
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+32_9_em20 : 
+  label : "32 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 32
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+32_10_em20 : 
+  label : "32 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 32
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+33_1_em20 : 
+  label : "33 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 33
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+33_2_em20 : 
+  label : "33 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 33
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+33_3_em20 : 
+  label : "33 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 33
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+33_4_em20 : 
+  label : "33 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 33
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+33_5_em20 : 
+  label : "33 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 33
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+33_6_em20 : 
+  label : "33 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 33
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+33_7_em20 : 
+  label : "33 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 33
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+33_8_em20 : 
+  label : "33 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 33
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+33_9_em20 : 
+  label : "33 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 33
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+33_10_em20 : 
+  label : "33 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 33
+  lambda_value : 0.1
+  non_merge_indices : {}
+
+34_1_em20 : 
+  label : "34 components, lambda 0.01"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 34
+  lambda_value : 0.01
+  non_merge_indices : {}
+
+34_2_em20 : 
+  label : "34 components, lambda 0.02"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 34
+  lambda_value : 0.02
+  non_merge_indices : {}
+
+34_3_em20 : 
+  label : "34 components, lambda 0.03"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 34
+  lambda_value : 0.03
+  non_merge_indices : {}
+
+34_4_em20 : 
+  label : "34 components, lambda 0.04"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 34
+  lambda_value : 0.04
+  non_merge_indices : {}
+
+34_5_em20 : 
+  label : "34 components, lambda 0.05"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 34
+  lambda_value : 0.05
+  non_merge_indices : {}
+
+34_6_em20 : 
+  label : "34 components, lambda 0.06"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 34
+  lambda_value : 0.06
+  non_merge_indices : {}
+
+34_7_em20 : 
+  label : "34 components, lambda 0.07"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 34
+  lambda_value : 0.07
+  non_merge_indices : {}
+
+34_8_em20 : 
+  label : "34 components, lambda 0.08"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 34
+  lambda_value : 0.08
+  non_merge_indices : {}
+
+34_9_em20 : 
+  label : "34 components, lambda 0.09"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 34
+  lambda_value : 0.09
+  non_merge_indices : {}
+
+34_10_em20 : 
+  label : "34 components, lambda 0.10"
+  clustering_name : em
+  epsilon : null
+  min_nr_samples : null
+  nr_clusters : 20
+  nr_components : 34
+  lambda_value : 0.1
+  non_merge_indices : {}
+
