@@ -9,9 +9,9 @@ def find_relations(part_dict, header, nr_components, lambda_value, label,
 
 	start = time.time()
 
-	if nr_components != None: trans_dict = run_ica(part_dict, nr_components)
+	if nr_components != None: part_dict = run_ica(part_dict, nr_components)
 
-	data_array = concatenate_dict(trans_dict)
+	data_array = concatenate_dict(part_dict)
 
 	nr_data_points = len(data_array)
 
@@ -20,4 +20,4 @@ def find_relations(part_dict, header, nr_components, lambda_value, label,
 	meta = label + "\nnr datapoints " + str(nr_data_points) + "\nduration " +\
 				 str(part_time + time.time() - start)
 
-	return result, meta, trans_dict
+	return result, meta, part_dict
