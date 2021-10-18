@@ -1,6 +1,5 @@
 import os
 import numpy as np
-from tqdm import tqdm
 # TODO import specific function
 import sklearn.cluster
 import sklearn.mixture
@@ -12,10 +11,11 @@ class RandomClusters():
 
 	def __init__(self, nr_clusters): self.nr_clusters = nr_clusters
 
-	def fit_predict(self, data):		 return np.random.randint(0, self.nr_clusters, len(data))
+	def fit_predict(self, data):
+		return np.random.randint(0, self.nr_clusters, len(data))
 
 
-def read_data(input_path):
+def load_data(input_path):
 
 	data_dict = dict()
 
@@ -62,13 +62,16 @@ def merge_contexts(in_data_dict, non_merge_indices):
 	return out_data_dict
 
 
-def select_cluster_algorithm(clustering_name, epsilon,	min_nr_samples, nr_clusters):
+def select_cluster_algorithm(clustering_name, cluster_params):
 
 	if clustering_name == "dbscan":
-		return sklearn.cluster.DBSCAN(eps=epsilon, min_samples=min_nr_samples)
+		eps, min_nr_samples = cluster_params
+		return sklearn.cluster.DBSCAN(eps=eps, min_samples=min_nr_samples)
 	elif clustering_name == "em":
+		nr_clusters = cluster_params
 		return sklearn.mixture.GaussianMixture(n_components=nr_clusters)
 	elif clustering_name == "random":
+		nr_clusters = cluster_params
 		return RandomClusters(nr_clusters)
 	else:
 		print("invalid clustering algorithm")
@@ -81,22 +84,3 @@ def concatenate_dict(data_dict, normalise=True):
 	if normalise: sklearn.preprocessing.StandardScaler().fit_transform(data_array)
 
 	return data_array
-
-
-def create_name(non_merge_indices, clustering_name, epsilon, min_nr_samples, nr_clusters, nr_components, lambda_value):
-
-	name = str(non_merge_indices)
-
-	name += clustering_name
-
-	if clustering_name == "dbscan":
-		name += "_" + str(epsilon)
-		name += "_" + str(min_nr_samples)
-	else:
-		name += "_" + str(nr_clusters)
-
-	name += "_ica" + str(nr_components) 
-
-	name += "_glasso" + str(lambda_value)
-
-	return name

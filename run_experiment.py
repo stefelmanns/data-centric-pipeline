@@ -2,11 +2,14 @@ import os
 import yaml
 import rpy2
 import pickle
-import argparse
+from argparse import ArgumentParser,\
+										 Namespace
 
 import numpy as np
 from tqdm import tqdm
-from helpers import read_data
+from itertools import product
+
+from helpers import load_data
 from partition import split_data
 from inference import find_relations
 
@@ -16,9 +19,11 @@ def run_experiment(setting, in_path, out_path):
 	set_seed = rpy2.robjects.r('set.seed')
 
 	with open(setting + ".yaml", 'r') as stream:
-		s = argparse.Namespace(**yaml.safe_load(stream))
+		s = Namespace(**yaml.safe_load(stream))
 
 	setting = setting.split("/")[-1]
+
+	inference_params = list(product(s.components_list, s.lambda_list))
 
 	out_path 	 += setting + "/"
 	result_path = out_path +  "/result/"
@@ -33,26 +38,40 @@ def run_experiment(setting, in_path, out_path):
 
 		if split == ".DS_Store": continue
 
-		pbar = tqdm(range(len(s.lambda_range) * len(s.components_range)),
-							  desc=split)
+		print("loading data...")
+		data_dict, header = load_data(in_path  + split + "/model/")
+	
+		pbar = tqdm(range(len(inference_params) * len(s.cluster_hyper_list)),
+								desc=split)
 
-		data_dict, header = read_data(in_path  + split + "/model/")
-		part_dict, part_time = split_data(data_dict, s.non_merge_indices,
-																			s.clustering_name, s.epsilon,
-																			s.min_nr_samples, s.nr_clusters)
+		for cluster_params in s.cluster_hyper_list:
 
-		for lambda_value in s.lambda_range:
-			for nr_components in s.components_range:
+			part_dict, part_time = split_data(data_dict, s.non_merge_indices,
+																				s.cluster_name, cluster_params)
+
+			for params in inference_params:
+
+				nr_components, lambda_value = params
 
 				set_seed(5) # 5 12 13 14 17
 				np.random.seed(10) # 10 37 22 7 40
 
-				label = str(nr_components) + " components, lambda " +\
-								'{0:.2f}'.format(lambda_value)
-				name = str(nr_components) + "_" + str(int(lambda_value * 100)) +\
-							 setting
+				
+				if s.cluster_name == None:
+					name = str(nr_components) + "_" + str(int(lambda_value * 100))
+					label = str(nr_components) + " components, lambda " +\
+									'{0:.2f}'.format(lambda_value)
+				else:
+					name = str(cluster_params) + "_" + str(nr_components) + "_" +\
+								str(int(lambda_value * 100))
+					label = "cluster parameters " + str(cluster_params) +\
+									str(nr_components) + " components, lambda " +\
+									'{0:.2f}'.format(lambda_value)
+					
 
-				result, meta, trans_dict = find_relations(part_dict, header, nr_components, lambda_value, label, part_time)
+				result, meta, trans_dict = find_relations(part_dict, header, 
+																									nr_components, lambda_value, 
+																									label, part_time)
 			
 				if not os.path.exists(result_path+name): os.makedirs(result_path+name)
 				if not os.path.exists(meta_path+name): 	 os.makedirs(meta_path+name)
@@ -70,9 +89,9 @@ def run_experiment(setting, in_path, out_path):
 
 if __name__ == '__main__':
 	
-	parser = argparse.ArgumentParser()
+	parser = ArgumentParser()
 
-	parser.add_argument('-s', '--setting', 	type=str, default="settings/em20")
+	parser.add_argument('-s', '--setting', 	type=str, default="settings/em")
 	parser.add_argument('-i', '--in_path', 	type=str, default="../lun_data_set/")
 	parser.add_argument('-o', '--out_path', type=str, default="../output/")
 
