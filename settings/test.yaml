@@ -1,9 +1,0 @@
-1_conventional : 
-  label : "0 components, lambda 0.01"
-  clustering_name : null
-  epsilon : null
-  min_nr_samples : null
-  nr_clusters : null
-  nr_components : null
-  lambda_value : 0.01
-  non_merge_indices : {}
