@@ -25,7 +25,7 @@ def run_experiment(setting, in_path, out_path):
 
 	paths = make_paths(out_path, setting)
 
-	print("running ", setting)
+	print("\nrunning ", setting)
 
 	for split in os.listdir(in_path):
 
