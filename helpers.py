@@ -1,10 +1,11 @@
 import os
+import pickle
+import argparse
 import numpy as np
-# TODO import specific function
-import sklearn.cluster
-import sklearn.mixture
-import sklearn.preprocessing
 from itertools import product
+from sklearn.cluster import DBSCAN
+from sklearn.mixture import GaussianMixture
+from sklearn.preprocessing import StandardScaler
 
 
 class RandomClusters():
@@ -13,6 +14,51 @@ class RandomClusters():
 
 	def fit_predict(self, data):
 		return np.random.randint(0, self.nr_clusters, len(data))
+
+
+def make_paths(out_path, setting):
+
+	out_path 	 += setting  + "/"
+	result_path = out_path + "/result/"
+	meta_path 	= out_path + "/meta/"
+	trans_path 	= out_path + "/transformed/"
+
+	if not os.path.exists(out_path): 		os.makedirs(out_path)
+	if not os.path.exists(result_path): os.makedirs(result_path)
+	if not os.path.exists(meta_path):		os.makedirs(meta_path)
+	if not os.path.exists(trans_path): 	os.makedirs(trans_path)
+
+	return argparse.Namespace(**{'result' : result_path,
+															 'meta' : meta_path,
+															 'trans' : trans_path})
+
+
+def write_output(paths, name, split, result, meta, trans_dict):
+
+	result_path = paths.result + name + "/"
+	meta_path 	= paths.meta 	 + name + "/"
+	trans_path 	= paths.trans  + name + "/"
+
+	if not os.path.exists(result_path): os.makedirs(result_path)
+	if not os.path.exists(meta_path): 	os.makedirs(meta_path)
+	if not os.path.exists(trans_path):	os.makedirs(trans_path) 
+
+	with open(result_path + split + ".pkl", 'wb') as f:	pickle.dump(result, f)
+	with open(meta_path 	+ split + ".txt", 'w') as f:	f.write(meta)
+	with open(trans_path 	+ split + ".pkl", 'wb') as f:	pickle.dump(trans_dict, f)
+
+
+def generate_name_label(lambda_value, nr_components, cluster_params):
+
+	name 	= "_".join([str(int(lambda_value * 100)),
+										str(nr_components),
+										str(cluster_params)])
+
+	label = "\n".join(["lambda " + '{0:.2f}'.format(lambda_value),
+											"components " + str(nr_components),
+											"cluster " + str(cluster_params)])
+
+	return name, label
 
 
 def load_data(input_path):
@@ -66,10 +112,10 @@ def select_cluster_algorithm(clustering_name, cluster_params):
 
 	if clustering_name == "dbscan":
 		eps, min_nr_samples = cluster_params
-		return sklearn.cluster.DBSCAN(eps=eps, min_samples=min_nr_samples)
+		return DBSCAN(eps=eps, min_samples=min_nr_samples)
 	elif clustering_name == "em":
 		nr_clusters = cluster_params
-		return sklearn.mixture.GaussianMixture(n_components=nr_clusters)
+		return GaussianMixture(n_components=nr_clusters)
 	elif clustering_name == "random":
 		nr_clusters = cluster_params
 		return RandomClusters(nr_clusters)
@@ -81,6 +127,6 @@ def concatenate_dict(data_dict, normalise=True):
 
 	data_array = np.concatenate(list(data_dict.values()))
 
-	if normalise: sklearn.preprocessing.StandardScaler().fit_transform(data_array)
+	if normalise: StandardScaler().fit_transform(data_array)
 
 	return data_array
