@@ -24,7 +24,9 @@ def run_experiment(setting, in_path, out_path):
 	inference_params = list(product(s.components_list, s.lambda_list))
 
 	paths = make_paths(out_path, setting)
-	
+
+	print("running ", setting)
+
 	for split in os.listdir(in_path):
 
 		if split == ".DS_Store": continue
