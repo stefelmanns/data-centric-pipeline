@@ -12,7 +12,9 @@ from inference import find_relations
 from helpers import load_data, make_paths, write_output, generate_name_label
 
 
-def run_experiment(setting, in_path, out_path):
+def run_experiment(setting, in_path, out_path, ignore):
+
+	ignore = ignore.split(",")
 
 	set_seed = rpy2.robjects.r('set.seed')
 
@@ -30,6 +32,7 @@ def run_experiment(setting, in_path, out_path):
 	for split in os.listdir(in_path):
 
 		if split == ".DS_Store": continue
+		if split in ignore: 		 continue
 
 		data_dict, header = load_data(in_path  + split + "/model/")
 	
@@ -68,5 +71,7 @@ if __name__ == '__main__':
 	parser.add_argument('-s', '--setting', 	type=str, default="settings/em")
 	parser.add_argument('-i', '--in_path', 	type=str, default="../lun_data_set/")
 	parser.add_argument('-o', '--out_path', type=str, default="../output/")
+	
+	parser.add_argument('-ig', '--ignore', 	type=str, default="")
 
 	run_experiment(**vars(parser.parse_args()))
