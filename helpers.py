@@ -29,8 +29,8 @@ def make_paths(out_path, setting):
 	if not os.path.exists(trans_path): 	os.makedirs(trans_path)
 
 	return argparse.Namespace(**{'result' : result_path,
-															 'meta' : meta_path,
-															 'trans' : trans_path})
+															 'meta' : 	meta_path,
+															 'trans' : 	trans_path})
 
 
 def write_output(paths, name, split, result, meta, trans_dict):
