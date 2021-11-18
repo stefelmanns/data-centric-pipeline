@@ -1,1 +1,1 @@
-# cp_cica
+# Independent Prototype Analysis
