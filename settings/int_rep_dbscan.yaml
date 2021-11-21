@@ -1,4 +1,4 @@
-non_merge_indices : [0, 1, 2]
+non_merge_indices : [0, 2]
 cluster_name : "dbscan"
 cluster_hyper_list : [[2, 2], [2, 3], [2, 4], [3, 2], [3, 3], [3, 4], [4, 2], [4, 3], [4, 4]]
 components_list : [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34]
